@@ -5,10 +5,10 @@ packages:
     dependency: "direct main"
     description:
       name: async
-      sha256: d810902f3971b6e8e2f9153c361d51bf1af1b99c25087906a50945e828a17591
+      sha256: "947bfcf187f74dbc5e146c9eb9c0f10c9f8b30743e341481c1e2ed3ecc18c20c"
       url: "https://pub.dev"
     source: hosted
-    version: "2.8.1"
+    version: "2.11.0"
   characters:
     dependency: transitive
     description:
@@ -34,10 +34,10 @@ packages:
     dependency: "direct dev"
     description:
       name: innim_lint
-      sha256: "7634a41723431aece5e9d1dd5547a5f643f2abb7d6c6837c53608d3c74c271c0"
+      sha256: "2c6a0e9775cf97f7cc60e12690ce6519611799b703e85f2824a281fa477f7680"
       url: "https://pub.dev"
     source: hosted
-    version: "0.3.1"
+    version: "0.4.0"
   material_color_utilities:
     dependency: transitive
     description:
@@ -77,4 +77,4 @@ packages:
     version: "0.3.0"
 sdks:
   dart: ">=3.2.0-194.0.dev <4.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=3.0.0"
