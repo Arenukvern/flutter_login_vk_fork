@@ -27,17 +27,6 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
 
-    kotlin {
-        jvmToolchain {
-            languageVersion.set(JavaLanguageVersion.of(17))
-        }
-    }
-    java {
-        toolchain {
-            languageVersion = JavaLanguageVersion.of(17)
-        }
-    }
-
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
@@ -52,6 +41,6 @@ android {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.vk:android-sdk-core:3.5.0'
-    implementation 'com.vk:android-sdk-api:3.5.0'
+    implementation 'com.vk:android-sdk-core:4.1.0'
+    implementation 'com.vk:android-sdk-api:4.1.0'
 }
